@@ -11,8 +11,10 @@ function add(a: number, b: number) {
   return result;
 }
 
-if (age > 20) {
-  let isOld = true;
-}
+// if (age > 20) {
+//   let isOld = true;
+// }
 
-console.log(isOld);
+// console.log(isOld);
+
+// console.log(result);
