@@ -46,13 +46,13 @@ const person = {
 
 const copiedPerson = {...person};
 
-const add = (...numbers: number[]) => {
+const add = (...numbers: [number, number, number]) => {
 
   return numbers.reduce((curResult, curValue) => {
     return curResult + curValue;
   }, 0);
 };
 
-const addedNumbers = add(5, 10, 2, 3.7);
+const addedNumbers = add(5, 10, 2);
 
 console.log(addedNumbers);
