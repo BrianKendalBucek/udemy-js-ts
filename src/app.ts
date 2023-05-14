@@ -1,8 +1,8 @@
-const userName= 'Max';
+// const userName= 'Max';
 
-let age = 30;
+// let age = 30;
 
-age = 29;
+// age = 29;
 
 
 // function add(a: number, b: number) {
@@ -40,7 +40,7 @@ const activeHobbies = ['Hiking'];
 activeHobbies.push(...hobbies);
 
 const person = {
-  name: 'Max',
+  firstName: 'Max',
   age: 30
 };
 
@@ -63,3 +63,5 @@ console.log(addedNumbers);
 const [hobby1, hobby2, ...remainingHobbies] = hobbies;
 console.log(hobbies, hobby1, hobby2)
 
+const { firstName: userName, age } = person;
+console.log(userName, age);
